@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #252b36;
+  background: #f5f6f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --mu-red: #e63946;
+  --mu-red-dark: #c92332;
+  --mu-red-soft: #fff0f1;
+  --ink: #252b36;
+  --muted: #737b88;
+  --line: #e6e8ed;
+  --surface: #ffffff;
+  --page: #f5f6f8;
+  --green: #21865a;
+  --green-soft: #eaf7f0;
+  --amber: #b7791f;
+  --amber-soft: #fff6e5;
+  --shadow: 0 8px 24px rgba(30, 39, 54, 0.055);
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; background: var(--page); }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--page); color: var(--ink); }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid rgba(230, 57, 70, .25); outline-offset: 2px; }
+a { color: inherit; text-decoration: none; }
+button:disabled { opacity: .65; cursor: not-allowed; }
+::selection { background: rgba(230, 57, 70, .15); }
